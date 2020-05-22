@@ -1,0 +1,94 @@
+.content{
+    background-color: #FFF3E7;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 50px;
+    width: 400px;
+}
+
+.form > .form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form .address_wrapper .form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid #11122b;
+    width: 400px;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+
+.state_zip_wrapper .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.state_zip_wrapper .form-group #state{
+    color: black;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    height: 40px;
+    
+}
+
+.state_zip_wrapper .form-group .zipcode input{
+    margin-top: 20px;
+    color: orange;
+    width: 75px;
+}
+
+.form textarea {
+    margin-top: 20px;
+    width: 400px;
+    height: 250px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    transition: all 0.3s;
+}
+
+.form > .text_area{
+    display: flex;
+    flex-direction: column;
+}
+
+.form   .submit-wrapper .btn{
+    width: 42%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}

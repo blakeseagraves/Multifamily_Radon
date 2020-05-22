@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/header_styles.css">
+    <link rel="stylesheet" href="styles/footer_styles.css">
+    <link rel="stylesheet" href="styles/contact_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a55a25fe6d.js" crossorigin="anonymous"></script>
+    AddType
+</head>
+<body>
+    <div class="header_wrapper">
+        <div class="logo_header">
+            <h4>"The multifamily choice <br> for radon testing"</h4>
+            <a class="logo" href="index.html" alt="logo">
+                <img src="images//mfr_logo.png" alt="Logo">
+            </a>
+            <div class="phone_number">
+                <a href="tel:+1235555555">
+                    <i class="fas fa-phone"></i>
+                    <div class="phone">
+                        (123) 555-5555
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="link_wrapper">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="information.html">FAQ's</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="form">
+            <h2>Contact:</h2>
+            <form action="contact_form.php" method="POST"></form>
+                <div class="form-group">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" placeholder="Name" required>   
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" placeholder="Phone number"required>
+                </div>
+
+                <div class="address_wrapper">
+                    <h2>Property Information:</h2>
+                    <div class="form-group">
+                        <label for="propertyname">Property Name</label>
+                        <input type="text" id="propertyname" placeholder="Property Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" placeholder="Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" placeholder="City" required>
+                    </div>
+                    <div class="state_zip_wrapper">
+                        <div class="form-group">
+                            <div class="state">
+                                <label for="state">State</label required>
+                                <select name="state" id="state">
+                                    <option value="Illinois">Illinois</option>
+                                    <option value="Indiana">indiana</option>
+                                    <option value="Michigan">Michigan</option>
+                                    <option value="Wisconsin">Wisconsin</option>
+                                </select>                  
+                            </div>
+
+                            <div class="zipcode">
+                                <input type="text" name="zipcode" id="Zip Code" placeholder="Zip" pattern="[0-9]{5}" required>
+                                <label for="zipcode">Zip Code</label>
+                            </div>
+                        </div>
+                    </div>
+            
+
+                <div class="form-group">
+                    <label for="message">Additional details:</label>
+                    <textarea name="message" id="message" placeholder="Additional details (number of units, number of buildings, or any other information)"></textarea>
+                </div>
+
+                <div class="submit-wrapper">
+                    <input type="submit" class="btn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_wrapper">
+        <div class="footer_logo">
+            <a class="logo" href="index.html" alt="logo">
+                <img src="images/mfr_logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="link_wrapper">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="information.html">FAQ's</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="contact_wrapper">
+            <div class="phone_number">
+                <a href="tel:+1235555555">
+                    <i class="fas fa-phone"></i>
+                    <div class="phone">
+                        (123) 555-5555
+                    </div>
+                </a>
+            </div>
+            <div class="email_wrapper">
+                <a href="mailto:email@multifamilyradon">
+                    <i class="fas fa-envelope"></i>
+                    <div class="email">
+                        email@multifamilyradon.com
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright_wrapper">
+        &copy; 2020 Multifamily Radon, Inc. All rights reserved.
+    </div>
+</body>
+</html>
